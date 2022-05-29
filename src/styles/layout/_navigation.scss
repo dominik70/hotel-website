@@ -171,6 +171,7 @@
   @include m.focus();
   border: 2px solid var(--white);
   transition: 0.2s;
+  @include m.flex(center, center);
 
   &:hover,
   &:focus {
